@@ -58,8 +58,8 @@ Make sure you have Python installed along with the required libraries:
 
 ### Step-by-Step Guide
 1. **Clone the repository:**
-   `git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git`
-   `cd YOUR_REPOSITORY_NAME`
+   `git clone https://github.com/HalukTT/IMU-Sensor-Placement-Analysis.git`
+   `cd IMU-Sensor-Placement-Analysis`
 2. **Create the data folder:**
    Create an empty folder named `data` in the root directory of this project.
 3. **Download the Dataset:**
