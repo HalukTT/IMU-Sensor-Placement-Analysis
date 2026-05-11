@@ -50,23 +50,24 @@ Placing a single sensor on the **Thigh** provides a high-performance alternative
 
 ## 🚀 How to Run Locally
 
-Due to GitHub's file size limits, the large dataset (`.csv` files) is not included in this repository. To run the code and reproduce our results on your local machine, please follow these steps:
+Due to GitHub's file size limits, the large dataset (`.csv` files) is not included in this repository. We automated the data fetching process using Git. 
 
 ### Prerequisites
 Make sure you have Python installed along with the required libraries:
 `pip install pandas numpy scikit-learn scipy`
 
 ### Step-by-Step Guide
-1. **Clone the repository:**
-   `git clone https://github.com/HalukTT/IMU-Sensor-Placement-Analysis.git`
-   `cd IMU-Sensor-Placement-Analysis`
-2. **Create the data folder:**
-   Create an empty folder named `data` in the root directory of this project.
-3. **Download the Dataset:**
-   Download the original `.csv` files from the official HARTH repository and place them inside the `data` folder.
-4. **Run the Model:**
-   Execute the Python script. The script will automatically locate the `data` folder, process the windows, and print the evaluation metrics.
-   `python main.py`
+**1. Clone this repository:**
+`git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git`
+`cd YOUR_REPOSITORY_NAME`
+
+**2. Fetch the HARTH Dataset:**
+Clone the official dataset repository directly into the project folder. Our script is configured to automatically locate the `.csv` files from this clone:
+`git clone https://github.com/ntnu-ai-lab/harth-ml-experiments.git`
+
+**3. Run the Model:**
+Execute the Python script. The script will process the windows, train the Random Forest models, and print the evaluation metrics:
+`python main.py`
 
 ---
 *Developed for MYZ307E - May 2026*
