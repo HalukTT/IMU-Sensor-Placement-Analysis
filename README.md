@@ -58,8 +58,8 @@ Make sure you have Python installed along with the required libraries:
 
 ### Step-by-Step Guide
 **1. Clone this repository:**
-`git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git`
-`cd YOUR_REPOSITORY_NAME`
+`git clone https://github.com/HalukTT/IMU-Sensor-Placement-Analysis.git`
+`cd IMU-Sensor-Placement-Analysis`
 
 **2. Fetch the HARTH Dataset:**
 Clone the official dataset repository directly into the project folder. Our script is configured to automatically locate the `.csv` files from this clone:
