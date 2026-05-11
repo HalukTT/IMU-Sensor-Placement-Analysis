@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score, classification_report
 # DATA PATH
 # =========================================================
 
-data_path = "./data"
+data_path = "./harth-ml-experiments/harth"
 
 # =========================================================
 # SUBJECT SPLIT
